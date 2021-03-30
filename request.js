@@ -1,6 +1,6 @@
 const key = "4faa05bc8691134529546a79397e3a7f";
 
-// const baseURL = 'http://api.openweathermap.org/data/2.5/weather?q=Lagos&appid=4faa05bc8691134529546a79397e3a7f';
+// const baseURL = 'https://api.openweathermap.org/data/2.5/weather?q=Lagos&appid=4faa05bc8691134529546a79397e3a7f';
 
 // fetch(baseURL)
 //     .then((data) => { console.log('response', data.json()) })
@@ -9,7 +9,7 @@ const key = "4faa05bc8691134529546a79397e3a7f";
 //     });
 
 const requestCity = async (city) => {
-  const baseURL = "http://api.openweathermap.org/data/2.5/weather";
+  const baseURL = "https://api.openweathermap.org/data/2.5/weather";
   const query = `?q=${city}&appid=${key}`;
 
   //make fetch call (promise call)
